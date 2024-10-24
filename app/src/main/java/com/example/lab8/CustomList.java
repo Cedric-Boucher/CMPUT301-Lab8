@@ -72,12 +72,20 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     /**
-     * TODO
+     * deletes city from list if it is in this list
      * @param city city
      */
     public void deleteCity(City city) {
         if (this.hasCity(city)) {
             this.cities.remove(city);
         }
+    }
+
+    /**
+     * returns the number of cities in this list
+     * @return int
+     */
+    public int countCities() {
+        return 0;
     }
 }
