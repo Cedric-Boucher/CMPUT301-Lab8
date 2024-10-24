@@ -63,11 +63,19 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     /**
-     * TODO
+     * returns true if the city is in this list
      * @param city city
      * @return boolean
      */
     public boolean hasCity(City city) {
         return cities.contains(city);
+    }
+
+    /**
+     * TODO
+     * @param city city
+     */
+    public void deleteCity(City city) {
+        return;
     }
 }
